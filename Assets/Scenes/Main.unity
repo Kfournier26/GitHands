@@ -290,12 +290,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30f9b00c54e3a37489df0a7a4ea371a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointerAnimationName: 
-  pointerAnimationReverseName: 
-  thumbAnimationName: 
-  thumbAnimationReverseName: 
-  graspAnimationName: 
-  graspAnimationReverseName: 
+  pointerAnimationName: PointerAni
+  pointerAnimationReverseName: PointerAniRev
+  thumbAnimationName: ThumbAni
+  thumbAnimationReverseName: ThumbAniRev
+  graspAnimationName: AnimateThree
+  graspAnimationReverseName: AnimateThreeRev
   handType: 2
   PositionOffset: {x: 0, y: 0, z: 0}
   RotationOffset: {x: 0, y: 0, z: 0}
@@ -811,6 +811,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: bcf2455cc34821e4785777a83663d01d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1007ed7cd4cb8e94c9b356802e0b0b67, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcf2455cc34821e4785777a83663d01d, type: 3}
 --- !u!1 &1715301714
